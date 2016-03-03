@@ -1,6 +1,6 @@
 # A Simple Makefile for C++
 
-This is a very simple makefile for C++. Simply put your source files in the src/ folder and header files in include/ folder.
+This is a very simple makefile for C++. Simply put your source files and header files in the src/ folder.
 
 The following would build and run the program.
 

@@ -3,7 +3,6 @@
 #########################################################################
 CC=g++
 CFLAGS=-std=c++11 -Wall -w
-INCLUDE:=include/
 SOURCE:=$(wildcard src/*.cpp)
 TARGET=hello
 
@@ -16,7 +15,7 @@ all: $(TARGET)
 # Action
 #########################################################################
 $(TARGET):
-	$(CC) $(CFLAGS) -I$(INCLUDE) $(SOURCE) -o $(TARGET)
+	$(CC) $(CFLAGS) $(SOURCE) -o $(TARGET)
 
 #########################################################################
 # Remove
